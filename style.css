@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: auto;
+    height:100vh;
+    background-color: silver;
+    margin: 0px auto;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.top-nav {
+    width:auto;
+    height: 150px;
+    background-color: green;
+    margin: 20px;
+}
+.side-nav {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin: 20px;
+
+
+}
+.main {
+    height: 540px;
+    display: flex;
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+    margin:20px;
+}
+.yellow_container{
+    display: flex;
+    width: calc(90% + 20px);
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.sub-content {
+    height: 200px;
+    flex: 1;
+    background-color: yellow;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* margin: 20px; */
+    /* margin-right:20px; */
+}
+#advertisement {
+    height: 120px;
+    width: 90%;
+    background-color: purple;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.row {
+    display: flex;
+    /* TODO - what should go here? */
+}
